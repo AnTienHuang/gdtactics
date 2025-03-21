@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instancing", "instancing.csproj", "{4E082D70-3C89-41A7-A4D7-C02F122538DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{4E082D70-3C89-41A7-A4D7-C02F122538DA}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -5,13 +5,19 @@ public partial class BaseCharacter : CharacterBody2D
 {
     // Stats
     [Export]
-    public string CharacterName { get; set; } = "No Name";
+    public string Name { get; set; } = "No Name";
 
     [Export]
     public int MaxHealth { get; set; } = 100;
 
     [Export]
     public int CurrentHealth { get; set; }
+
+    [Export]
+    public int CurrentMana { get; set; } = 100
+
+    [Export]
+    public int MaxMana { get; set; } = 100
 
     [Export]
     public int MovementSpeed { get; set; } = 300

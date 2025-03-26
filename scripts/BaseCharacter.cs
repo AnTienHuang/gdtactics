@@ -52,16 +52,16 @@ public partial class BaseCharacter : CharacterBody2D
         {
             case CharacterState.Idle:
                 _animatedSprite.Play("idle");
-
+                break;
             case CharacterState.Walking:
                 _animatedSprite.Play("walk");
-
+                break;
             case CharacterState.Hurt:
                 _animatedSprite.Play("hurt");
-
+                break;
             case CharacterState.Dead:
                 _animatedSprite.Play("dead");
-
+                break;
         }
     }
 

@@ -12,9 +12,13 @@ config_version=5
 
 config/name="GDTactics"
 run/main_scene="uid://d0u3rv6sii5av"
-config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+config/icon="res://assets/icon.svg"
 
 [dotnet]
 
 project/assembly_name="GDTactics"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
